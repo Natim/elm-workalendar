@@ -52,7 +52,7 @@ offdays year =
             , ( Date.fromParts year Nov 1 0 0 0 0, "All Saints Day" )
             , ( Date.fromParts year Nov 11 0 0 0 0, "Armistice Day" )
             , ( Date.fromParts year Dec 25 0 0 0 0, "Christmas Day" )
-            , ( Date.add Date.Day 1 easterDay, "Easter Monday" )
+            , ( Date.add Day 1 easterDay, "Easter Monday" )
             , ( Date.add Day 39 easterDay, "Ascension" )
             , ( Date.add Day 50 easterDay, "Whit Monday" )
             ]
