@@ -1,5 +1,11 @@
 module FrenchHolidays exposing (offdays)
 
+{-| This library makes it easy to compute the list of French Holidays for a given year
+
+@docs offdays
+
+-}
+
 import Easter exposing (EasterMethod(..), easter)
 import Date exposing (Date, Month(..))
 import Date.Extra as Date exposing (Interval(..))
